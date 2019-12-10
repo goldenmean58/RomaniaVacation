@@ -26,10 +26,23 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    drawboard.cpp \
+    graphics.cpp \
+    dfs_bfs.cpp \
+    greedy.cpp \
+    a-star.cpp \
+    utils.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    graphics.hpp \
+    drawboard.h \
+    graphics.h \
+    dfs_bfs.h \
+    greedy.h \
+    A-star.h \
+    utils.h
 
 FORMS += \
         mainwindow.ui

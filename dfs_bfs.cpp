@@ -1,13 +1,5 @@
-#ifndef DFS_BFS_H
-#define DFS_BFS_H
-#include "graphics.hpp"
-#include "utils.hpp"
-#include <algorithm>
-#include <deque>
-#include <set>
-using std::deque;
-using std::find;
-using std::set;
+#include "graphics.h"
+#include "dfs_bfs.h"
 
 Result dfs(Map *map, int start, int end) {
   assert(map);
@@ -120,4 +112,3 @@ Result bfs(Map *map, int start, int end) {
   }
   return result;
 }
-#endif

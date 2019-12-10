@@ -1,12 +1,4 @@
-#ifndef A_STAR_H
-#define A_STAR_H
-
-#include "graphics.hpp"
-#include "utils.hpp"
-#include <limits.h>
-#include <vector>
-using std::vector;
-
+#include "A-star.h"
 Result A_star(Map *map, int *hsld, int start, int end) {
   assert(map);
   assert(hsld);
@@ -42,4 +34,3 @@ Result A_star(Map *map, int *hsld, int start, int end) {
   }
   return result;
 }
-#endif

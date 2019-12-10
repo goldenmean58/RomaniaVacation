@@ -1,16 +1,4 @@
-#ifndef GREEDY_H
-#define GREEDY_H
-
-#include "graphics.hpp"
-#include "utils.hpp"
-#include <assert.h>
-#include <fstream>
-#include <limits.h>
-#include <vector>
-using std::fstream;
-using std::string;
-using std::vector;
-
+#include "greedy.h"
 int read_hsld(char *file_name, int *f, size_t *size) {
   assert(file_name);
   assert(f);
@@ -64,5 +52,3 @@ Result greedy(Map *map, int *hsld, int start, int end) {
   }
   return result;
 }
-
-#endif
